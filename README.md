@@ -25,5 +25,6 @@ I am at beginner level to use GitHub and when I started to learn things on githu
 - [Phill Conrad's Webapp Tutorial Collection]
 
 ## Contributor
- This is Rohan and I am currently pursing my master's in Apllied Computer Science at Northwest Missouri State University.I am very glad to share my favourite picture.
+ This is Rohan and I am currently pursing my master's in Apllied Computer Science at Northwest Missouri State University and I am very glad to share my favourite picture.
+  ![](https://github.com/rohan6471/About-me/blob/master/60342268_1057148171151331_9100605864191983616_n.jpg)
  
