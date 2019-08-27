@@ -20,11 +20,13 @@ Tools make our work easier so here are some the useful tools to publish a repo o
 
 I am at beginner level to use GitHub and when I started to learn things on GitHub I found the following resources very interesting and helpful to gain additional information. 
 
-- [GitHUb for Beginners]
-- [Guide to GitHub]
-- [Phill Conrad's Webapp Tutorial Collection]
+- [GitHUb for Beginners](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+- [Guide to GitHub](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
+- [Phill Conrad's Webapp Tutorial Collection](https://github.com/pconrad-webapps)
 
 ## Contributor
  This is Rohan and I am currently pursuing my master's in Applied Computer Science at Northwest Missouri State University and I am very glad to share my favorite picture.
+ 
+ 
   ![](https://github.com/rohan6471/About-me/blob/master/60342268_1057148171151331_9100605864191983616_n.jpg)
  
