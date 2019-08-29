@@ -27,4 +27,4 @@ I am at beginner level to use GitHub and when I started to learn things on GitHu
 ## Contributor
  This is Rohan and I am currently pursuing my master's in Applied Computer Science at Northwest Missouri State University and I am very glad to share my favorite picture.
 
-!["fav-img](/fav.jpg "fav-img")
+![fav-img](/fav.jpg "fav-img")
