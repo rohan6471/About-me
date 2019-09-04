@@ -4,7 +4,7 @@
 
 - [Source Repository](https://github.com/rohan6471/About-me)
 
-- [My Hosted Webpage](https://https://rohan6471.github.io/about-me/)
+- [My Hosted Webpage](https://https://rohan6471.github.io/about-me)
 
 ## About
 This repo provides my personal information which includes my areas of interests, avocations and few information about my under graduation. It also includes links to my webpage published on GitHub along with some useful links to refer for additional information on GitHub.
