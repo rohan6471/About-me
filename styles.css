@@ -64,6 +64,9 @@ hr{
 a{
   color: rgb(255, 255, 255);
 }
+a:hover{
+  color: rgb(255, 255, 255);
+}
 footer{
   color:white;
   text-align: center;
