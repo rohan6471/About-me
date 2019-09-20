@@ -29,7 +29,7 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">weight calculator</a>
+                    <a class="nav-link" href="#">Tempature Calculator</a>
                 </li>
             </ul>
         </div>
@@ -40,6 +40,7 @@
     </header>
     <hr>
     <article>
+        <h3>Temperature Convertor</h3>
         <div class="app">
             <div class="row m-t-5">
                 <div class="col-md-4"></div>
@@ -55,10 +56,14 @@
             </div>
         </div>
     </article>
-    <footer class="footer-calc">@rohan fall 2019</footer>
+    <footer class="footer-calc">@Rohan fall 2019</footer>
     <script> function temperatureConverter(valNum) {
             valNum = parseFloat(valNum);
-            document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
+            if (valNum) {
+                document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
+            } else {
+                document.getElementById("outputCelsius").innerHTML = "please enter the tempature in number";
+            }
         }
     </script>
 
