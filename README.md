@@ -24,6 +24,15 @@ I am at beginner level to use GitHub and when I started to learn things on GitHu
 - [Guide to GitHub](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 - [Phill Conrad's Webapp Tutorial Collection](https://github.com/pconrad-webapps)
 
+## References
+- [W3Schools html](https://www.w3schools.com/html/)
+
+- [BootStrap](https://getbootstrap.com/docs/4.0/components/forms)
+
+- [Html CSS tags](https://www.tutorialspoint.com/html/index.htm)
+
+- [CSS FLEXBOX Video](https://youtu.be/JJSoEo8JSnc)
+
 ## Contributor
  This is Rohan and I am currently pursuing my master's in Applied Computer Science at Northwest Missouri State University and I am very glad to share my favorite picture.
 
