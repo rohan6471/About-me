@@ -33,6 +33,12 @@ I am at beginner level to use GitHub and when I started to learn things on GitHu
 
 - [CSS FLEXBOX Video](https://youtu.be/JJSoEo8JSnc)
 
+- [Vue component](https://vuejs.org/)
+
+- [AJAX](https://api.jquery.com/jquery.ajax/)
+
+- [JSON PLACEHOLDER](https://jsonplaceholder.typicode.com/)
+
 ## Contributor
  This is Rohan and I am currently pursuing my master's in Applied Computer Science at Northwest Missouri State University and I am very glad to share my favorite picture.
 
