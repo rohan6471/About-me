@@ -6,7 +6,7 @@ QUnit.test('TEST calc', assert => {
   assert.equal(calc(12345),478775657.35, 'long')
   assert.equal(calc(20.5), 1320.25, 'Float type')
  assert.equal(calc(3.1234), 30.65, 'Double type')
- assert.equal(calc('a'),-1,'Invalid type')
+
  
 })
 
