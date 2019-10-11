@@ -54,12 +54,26 @@ hr{
   margin: 5px 0px;
   border: 1px solid #333;
 }
-
-.m-t-5 {
-  margin-top: 5%;
+.aj{
+  border : 1px solid white;
+  box-shadow: 3px 3px 8px 0px slategray;
+  border-radius: 15px;
+  padding: 6%;
+  margin: 6%;
+  color:white;
+  max-height: 300px;
+  min-height: 250px;
 }
-.container-fluid{
 
+.ad {
+  color:white;
+  border : 1px solid white;
+  box-shadow: 3px 3px 8px 0px slategray;
+  border-radius: 15px;
+  padding: 6%;
+  margin: 6%;
+  max-height: 300px;
+  min-height: 250px;
 }
 a{
   color: rgb(255, 255, 255);
@@ -78,6 +92,10 @@ footer{
   position: fixed;
 }
 .app label{
+  color:white;
+  padding-right:20px;
+}
+.app p{
   color:white;
   padding-right:20px;
 }

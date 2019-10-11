@@ -29,7 +29,10 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tempature Calculator</a>
+                    <a class="nav-link" href="#">Area of circle</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/test/qunit.html">Qunit</a>
                 </li>
             </ul>
         </div>
@@ -38,35 +41,63 @@
         <h1>Rohan Bhandari</h1>
 
     </header>
-    <hr>
-    <article>
-        <h3>Temperature Convertor</h3>
-        <div class="app">
-            <div class="row m-t-5">
-                <div class="col-md-4"></div>
-                <section>
-                    <label>Fahrenheit</label>
-                    <input id="inputFahrenheit" type="text" placeholder="Enter Fahrenheit"
-                        oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
-                </section>
+    <div class="row">
+        <article class="col-sm-4">
+            <div class="ad">
+                <fieldset class="mt-2">
+                    <h2>Using JavaScript</h2>
+                    <br>
+                    <label>Enter the radius:</label>
+                    <input id="radius" type="number">
+                </fieldset>
+                <p style="margin-bottom:0px">Area of circle :<span id="result"></span> </p>
+                <p id="result2"></p>
+                <button id="calculate">Calculate</button>
             </div>
-            <div class="row m-t-5">
-                <div class="col-md-4"></div>
-                <label>Celsius: <span id="outputCelsius"></span></label>
-            </div>
-        </div>
-    </article>
-    <footer class="footer-calc">@Rohan fall 2019</footer>
-    <script> function temperatureConverter(valNum) {
-            valNum = parseFloat(valNum);
-            if (valNum) {
-                document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
-            } else {
-                document.getElementById("outputCelsius").innerHTML = "please enter the tempature in number";
-            }
-        }
-    </script>
+        </article>
 
+        <!-- <div class="row m-t-5"> -->
+        <!-- <div class="col-sm-4"></div> -->
+        <article>
+
+        </article>
+
+
+        <!-- </div> -->
+        <article id="area" class="col-sm-4 ">
+            <div class="aj">
+                <fieldset class="mt-2">
+                    <h2>Using Vue.js</h2>
+                    <br>
+                    <label for="guest">Enter your name :</label>
+                    <input v-model="guest" id="guest" type="text">
+                </fieldset>
+                <fieldset class="mt-2">
+                    <label for="firstNumber">Enter radius :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input v-model="firstNumber" id="firstNumber">
+                </fieldset>
+                <h5>{{result}}</h5>
+            </div>
+        </article>
+
+        <article class="col-sm-4">
+            <div class="aj">
+                <h2>Using AJAX</h2>
+                <br>
+                <p>Here is the Ajax component which
+                    fetches the user name</p>
+                <button id="getUsername" onclick="updateWithUser()">Fetch
+                    UserName</button>
+                <!-- <br /> -->
+                <p>User is <span id="result1"></span></p>
+                <p id="result2"></p>
+            </div>
+        </article>
+
+    </div>
+
+
+    <footer class="footer-calc">@Rohan fall 2019</footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -76,6 +107,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="scripts/javascrpt.js"></script>
+    <script src="scripts/ajx.js"></script>
+    <script src="scripts/vue.js"></script>
 </body>
 
 </html>
