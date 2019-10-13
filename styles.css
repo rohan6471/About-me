@@ -27,13 +27,7 @@ td{
 th{
   color: white
 }
-nav{
-  background-color:rgb(124, 124, 124);
-  
-}
-nav a{
-  color:white;
-}
+
 #img-circle {
   border-radius: 50%;
 }
@@ -61,8 +55,8 @@ hr{
   padding: 6%;
   margin: 6%;
   color:white;
-  max-height: 300px;
-  min-height: 250px;
+  max-height: 315px;
+  min-height: 315px;
 }
 
 .ad {
@@ -72,8 +66,8 @@ hr{
   border-radius: 15px;
   padding: 6%;
   margin: 6%;
-  max-height: 300px;
-  min-height: 250px;
+  max-height: 315px;
+  min-height: 315px;
 }
 a{
   color: rgb(255, 255, 255);

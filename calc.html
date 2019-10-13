@@ -13,22 +13,23 @@
 </head>
 
 <body id="body-contact" class="bckgrnd">
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html"><img id="img-circle" src="IMG-3575.jpg" alt="profile pic" width="100"
-                height="100"></a>
+    <!-- <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+            <img id="img-circle" src="IMG-3575.jpg" alt="profile pic" width="100" height="100">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Area of circle</a>
                 </li>
                 <li class="nav-item">
@@ -36,7 +37,33 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+          
+            <a class="navbar-brand" href="index.html">
+                    <img id="img-circle" src="IMG-3575.jpg" alt="profile pic" width="100" height="100">
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#">Area of circle<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="./test/qunit.html">Qunit</a>
+                </li>
+              </ul>
+            </div> 
+          </nav>
     <header>
         <h1>Rohan Bhandari</h1>
 
@@ -48,7 +75,7 @@
                     <h2>Using JavaScript</h2>
                     <br>
                     <label>Enter the radius:</label>
-                    <input id="radius" type="number">
+                    <input id="radius" type="number" class="col-sm-12">
                 </fieldset>
                 <p style="margin-bottom:0px">Area of circle :<span id="result"></span> </p>
                 <p id="result2"></p>
@@ -64,17 +91,17 @@
 
 
         <!-- </div> -->
-        <article id="area" class="col-sm-4 ">
+        <article id="area" class="col-sm-4">
             <div class="aj">
                 <fieldset class="mt-2">
                     <h2>Using Vue.js</h2>
                     <br>
                     <label for="guest">Enter your name :</label>
-                    <input v-model="guest" id="guest" type="text">
+                    <input v-model="guest" id="guest" type="text" class="col-sm-12">
                 </fieldset>
                 <fieldset class="mt-2">
                     <label for="firstNumber">Enter radius :&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input v-model="firstNumber" id="firstNumber">
+                    <input v-model="firstNumber" id="firstNumber" class="col-sm-12">
                 </fieldset>
                 <h5>{{result}}</h5>
             </div>
