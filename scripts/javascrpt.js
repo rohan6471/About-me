@@ -1,4 +1,7 @@
 const calc = (radius) => {
+    if (typeof(radius) !== 'number') {
+        throw Error('The given argument is not a number');
+      }
     return Math.round(Math.PI * radius * radius * 100) / 100;
 }
 /*window.addEventListener('load', (event) => {
